@@ -7,8 +7,8 @@
 
 include <carcassonne_box.scad>
 
-count = 30;
-dividers = [[1,2.5]];
+count = 24;
+dividers = [[1.5]];
 columns = 2;
 
 carcassonne_box(count, dividers, columns);
